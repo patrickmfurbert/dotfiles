@@ -5,10 +5,10 @@ return {
   opts = {
     copilot_node_command = "/home/pastrycak3s/.nvm/versions/node/v24.14.0/bin/node",
     suggestion = {
-      enabled = true,
-      auto_trigger = true,
+      enabled = false,
+      auto_trigger = false,
       keymap = {
-        accept = "<Tab>",
+        accept = "<S-Tab>",
         dismiss = "<C-]>",
         next = "<M-]>",
         prev = "<M-[>",
