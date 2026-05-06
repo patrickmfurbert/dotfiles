@@ -248,3 +248,4 @@ exec pipewire
 exec sh -c "sleep 1 && pipewire-pulse"
 exec sh -c "sleep 2 && wireplumber"
 exec sh -c "sleep 3 && flatpak run org.mozilla.firefox"
+xwayland enable
